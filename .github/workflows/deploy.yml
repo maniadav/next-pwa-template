@@ -21,10 +21,10 @@ jobs:
           node-version: 18
 
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
 
       - name: Build Next.js App
-        run: npm run build && npm run export
+        run: yarn run build
 
       - name: Setup GitHub Pages
         run: |

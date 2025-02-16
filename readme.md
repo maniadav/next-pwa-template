@@ -16,3 +16,7 @@
 ### Desktop
 
 <img width="1728" alt="Rice Bowl PWA on macOS in dark mode" src="public/images/desktop.png">
+
+
+Points to keep in mind:
+1. // next start doesn't work output export in next-config.js so use npx serve out
