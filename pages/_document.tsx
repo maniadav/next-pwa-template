@@ -14,7 +14,10 @@ export default function Document() {
 					rel='apple-touch-icon'
 					href={`${basePath && `/${basePath}`}/images/icon-masked-512.png`}
 				/>
-				<link rel='manifest' href='/manifest.json' />
+				<link
+					rel='manifest'
+					href={`${basePath && `/${basePath}`}/manifest.json`}
+				/>
 			</Head>
 			<body>
 				<Main />
