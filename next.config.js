@@ -6,7 +6,7 @@ const withPWA = require('next-pwa')({
 	skipWaiting: true,
 })
 
-const isGithubDeploy = false
+const isGithubDeploy = true
 const repoName = 'next-pwa-template'
 
 module.exports = withPWA({

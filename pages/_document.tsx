@@ -1,3 +1,4 @@
+import basePath from '@/components/config'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
@@ -5,7 +6,11 @@ export default function Document() {
 		<Html lang='en'>
 			<Head>
 				<meta charSet='utf-8' />
-				<link rel='icon' type='image/png' href='/images/icon-masked-192.png' />
+				<link
+					rel='icon'
+					type='image/png'
+					href={`${basePath}/images/icon-masked-192.png`}
+				/>
 				<meta
 					name='viewport'
 					content='width=device-width, initial-scale=1, user-scalable=0, viewport-fit=cover'

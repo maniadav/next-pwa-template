@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
+import basePath from './config'
 
 const links = [
 	{ label: 'home', href: '/' },
@@ -9,7 +10,7 @@ const links = [
 ]
 
 const Appbar = () => {
-	const router = useRouter()
+	const { pathname } = useRouter()
 
 	return (
 		<div className='fixed top-0 left-0 z-20 w-full bg-zinc-900 pt-safe'>
@@ -27,7 +28,7 @@ const Appbar = () => {
 										key={label}
 										href={href}
 										className={`text-sm ${
-											router.pathname === href
+											pathname === href
 												? 'text-fuchsia-500 dark:text-fuchsia-400 font-bold'
 												: 'text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
 										}`}
@@ -44,7 +45,7 @@ const Appbar = () => {
 						>
 							<Image
 								alt='user'
-								src='/images/user.png'
+								src={`${basePath}/images/user.png`}
 								width={50}
 								height={50}
 								className='rounded-full'
