@@ -45,7 +45,7 @@ const Appbar = () => {
 						>
 							<Image
 								alt='user'
-								src={`${basePath}/images/user.png`}
+								src={`${basePath && `/${basePath}`}/images/user.png`}
 								width={50}
 								height={50}
 								className='rounded-full'
