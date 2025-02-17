@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
-		"prebuild": "node scripts/generateManifest.js",
+		"prebuild": "node scripts/generateManifest.mjs",
 		"build": "next build",
 		"start": "npx serve out",
 		"lint": "next lint"

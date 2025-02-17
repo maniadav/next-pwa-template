@@ -24,6 +24,7 @@
 		"next-env.d.ts",
 		"**/*.ts",
 		"**/*.tsx",
-		"scripts/generateManifest.js"
+		"scripts/generateManifest.js",
+		"components/config.js"
 	]
 }

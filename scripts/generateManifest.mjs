@@ -1,5 +1,5 @@
 import { writeFileSync } from 'fs'
-import basePath from '../components/config.ts'
+import basePath from '../components/config.js'
 
 const manifest = {
 	name: 'Next PWA Template',
