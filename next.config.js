@@ -6,14 +6,11 @@ const withPWA = require('next-pwa')({
 	skipWaiting: true,
 })
 
-const isGithubDeploy = true
-const repoName = 'next-pwa-github-template'
-
 module.exports = withPWA({
 	reactStrictMode: true,
 	output: 'export',
-	basePath: isGithubDeploy ? `/${repoName}` : '',
-	assetPrefix: isGithubDeploy ? `/${repoName}/` : '',
+	basePath: '',
+	assetPrefix: '',
 	images: {
 		unoptimized: true,
 	},

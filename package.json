@@ -1,12 +1,12 @@
 {
-	"name": "next-pwa-github-template",
+	"name": "next-pwa-template",
 	"version": "0.0.0",
 	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
 		"prebuild": "node scripts/generateManifest.mjs",
 		"build": "next build",
-		"start": "npx serve out",
+		"start": "next start",
 		"lint": "next lint"
 	},
 	"dependencies": {
