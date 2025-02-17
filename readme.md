@@ -26,4 +26,4 @@
 
 Points to keep in mind:
 
-1. // next start doesn't work output export in next-config.js so use npx serve out
+1.
