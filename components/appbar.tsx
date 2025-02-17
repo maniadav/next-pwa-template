@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 const links = [
 	{ label: 'home', href: '/' },
@@ -39,11 +40,16 @@ const Appbar = () => {
 
 						<div
 							title='Gluten Free'
-							className='h-10 w-10 rounded-full bg-zinc-200 bg-cover bg-center shadow-inner dark:bg-zinc-800'
-							style={{
-								backgroundImage: 'url(/images/user.png)',
-							}}
-						/>
+							className=' h-10 w-10 rounded-full bg-zinc-200 bg-cover bg-center shadow-inner dark:bg-zinc-800'
+						>
+							<Image
+								alt='user'
+								src='/images/user.png'
+								width={50}
+								height={50}
+								className='rounded-full'
+							/>
+						</div>
 					</nav>
 				</div>
 			</header>

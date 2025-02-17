@@ -6,14 +6,14 @@ const withPWA = require('next-pwa')({
 	skipWaiting: true,
 })
 
-const isProd = true //process.env.NODE_ENV === 'production'
+const isGithubDeploy = false
 const repoName = 'next-pwa-template'
 
 module.exports = withPWA({
 	reactStrictMode: true,
 	output: 'export',
-	basePath: isProd ? `/${repoName}` : '',
-	assetPrefix: isProd ? `/${repoName}/` : '',
+	basePath: isGithubDeploy ? `/${repoName}` : '',
+	assetPrefix: isGithubDeploy ? `/${repoName}/` : '',
 	images: {
 		unoptimized: true,
 	},
