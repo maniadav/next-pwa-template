@@ -1,8 +1,8 @@
 import { writeFileSync } from 'fs'
-const basePath = 'next-pwa-template'
+const basePath = 'next-pwa-github-template'
 
 const manifest = {
-	name: 'Next PWA Template',
+	name: 'Next PWA Gh-Page Template',
 	short_name: 'NEXT-PWA',
 	description: 'Progressive web app using next-pwa',
 	icons: [

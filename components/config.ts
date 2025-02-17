@@ -1,3 +1,3 @@
-const basePath = 'next-pwa-template'
+const basePath = 'next-pwa-github-template'
 
 export default basePath

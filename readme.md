@@ -1,12 +1,12 @@
 <p align="center">
 	<img alt="Rice Bowl" src="public/images/icon-512.png" width="90">
-	<h2 align="center">Next PWA Template</h2>
+	<h2 align="center">Next PWA Gh-Page Template</h2>
 </p>
 
 <p align="center">Template for PWA using Next.js and next-pwa package</p>
 
 <p align="center">
-	<a href="https://maniadav.github.io/next-pwa-template">Live demo</a>
+	<a href="https://maniadav.github.io/next-pwa-github-template">Live demo</a>
 </p>
 
 ## Get Started

@@ -7,7 +7,7 @@ const withPWA = require('next-pwa')({
 })
 
 const isGithubDeploy = true
-const repoName = 'next-pwa-template'
+const repoName = 'next-pwa-github-template'
 
 module.exports = withPWA({
 	reactStrictMode: true,

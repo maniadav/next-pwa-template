@@ -7,19 +7,12 @@ const Index = () => (
 		<Section>
 			<main className='flex flex-col items-center justify-center p-4 bg-white dark:bg-zinc-900'>
 				<h2 className='text-xl font-semibold text-zinc-800 dark:text-zinc-200'>
-					What is a Progressive Web App (PWA)?
+					A bit about the project
 				</h2>
 
 				<div className='mt-2 text-start max-w-2xl'>
 					<p className='text-zinc-600 dark:text-zinc-400'>
-						A{' '}
-						<span className='font-medium text-zinc-900 dark:text-zinc-50'>
-							Progressive Web App (PWA)
-						</span>{' '}
-						is a type of web application that leverages modern web technologies
-						to provide a native app-like experience. PWAs are fast, reliable,
-						and can work offline, making them a great choice for delivering a
-						seamless user experience.
+						{`	This project utilizes next-pwa to build PWA (Pogressive web app). I have also generated static file and deployed it on Github Pages.`}
 					</p>
 
 					<h3 className='mt-4 text-lg font-semibold text-zinc-800 dark:text-zinc-200'>
@@ -36,7 +29,7 @@ const Index = () => (
 				</div>
 				<div className='flex text-center mt-20'>
 					<Link
-						href='https://github.com/maniadav/next-pwa-template'
+						href='https://github.com/maniadav/next-pwa-github-template'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='px-4 py-2 mt-6 text-sm font-medium text-white bg-fuchsia-600 rounded-lg shadow-md hover:bg-fuchsia-700 dark:bg-fuchsia-500 dark:hover:bg-fuchsia-600'
