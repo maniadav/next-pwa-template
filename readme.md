@@ -3,7 +3,7 @@
 	<h2 align="center">Next PWA Template</h2>
 </p>
 
-<p align="center">Template for PWA using Next.js and next-pwa package</p>
+<p align="center">Template for PWA using Next.js (Pages Router) and next-pwa package</p>
 
 <p align="center">
 	<a href="https://maniadav.github.io/next-pwa-template">Live demo</a>
