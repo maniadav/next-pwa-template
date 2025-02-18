@@ -1,9 +1,9 @@
 <p align="center">
 	<img alt="Rice Bowl" src="public/images/icon-512.png" width="90">
-	<h2 align="center">Next PWA Template</h2>
+	<h2 align="center">Next PWA Template (Pages Router)</h2>
 </p>
 
-<p align="center">Template for PWA using Next.js (Pages Router) and next-pwa package</p>
+<p align="center">Template for PWA using Next.js (Pages Router) and next-pwa package. Caching allows the app to work offline</p>
 
 <p align="center">
 	<a href="https://maniadav.github.io/next-pwa-template">Live demo</a>
